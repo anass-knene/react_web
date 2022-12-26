@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.liveEditorBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  .editorMainDive {
+    display: flex;
+    height: 300px;
+  }
+  .textBox {
+    width: 20%;
+    margin-right: 80px;
+    line-height: 30px;
+    h2 {
+      margin-bottom: 50px;
+    }
+    &:nth-of-type(3) {
+      margin-top: 20px;
+    }
+  }
+}
+.editorMainDiv {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  display: flex;
+  height: 250px;
+  .jsxEditor {
+    width: 60%;
+    overflow-y: scroll;
+    white-space: nowrap;
+
+    h3 {
+      background-color: rgb(41, 41, 41);
+      padding: 10px;
+      color: grey;
+      border-start-start-radius: 10px;
+    }
+  }
+
+  .editor {
+    border-bottom-left-radius: 10px;
+    background-color: rgba(27, 32, 95, 0.808);
+    line-height: 30px;
+    height: 400px;
+  }
+  // .error {
+  //   background-color: violet;
+  //   overflow-wrap: normal;
+  // }
+
+  .resultDiv {
+    width: 40%;
+
+    h3 {
+      padding: 10px;
+      background-color: rgb(200, 200, 200);
+      color: gray;
+      border-top-right-radius: 10px;
+    }
+    .preview {
+      overflow-wrap: break-word;
+      color: black;
+      font-size: 2rem;
+      margin-left: 30px;
+    }
+  }
+}

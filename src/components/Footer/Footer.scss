@@ -1,0 +1,25 @@
+.footer {
+  background-color: #1c2833ec;
+  margin-top: 40px;
+  .FooterDiv {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    height: 600px;
+    .wrapper {
+      display: grid;
+      grid-template-columns: 300px 200px 200px;
+      text-align: center;
+      justify-content: center;
+      grid-gap: 10px;
+      color: #444;
+      //       background-color: #1c2833ec;
+      .box {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+      }
+    }
+  }
+}
