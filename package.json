@@ -42,7 +42,6 @@
   "author": "Naqvi",
   "license": "ISC",
   "devDependencies": {
-    "bindings": "^1.5.0",
-    "webpack": "^4.44.2"
+    "bindings": "^1.5.0"
   }
 }
