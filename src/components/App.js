@@ -210,11 +210,11 @@ class TodoList extends React.Component {
 );"
         />
       </div>
-
+      {/* // "start": "react-scripts start", */}
       <div className="headerButton">
         <Button />
       </div>
-      <div>{/* <Footer /> */}</div>
+      {/* <div><Footer /></div> */}
     </div>
   );
 }
